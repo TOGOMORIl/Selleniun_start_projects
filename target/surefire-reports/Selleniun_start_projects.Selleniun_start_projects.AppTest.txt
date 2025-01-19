@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: Selleniun_start_projects.Selleniun_start_projects.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.758 s - in Selleniun_start_projects.Selleniun_start_projects.AppTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.163 s <<< FAILURE! - in Selleniun_start_projects.Selleniun_start_projects.AppTest
+Tests1 on Tests1(Selleniun_start_projects.Selleniun_start_projects.AppTest)(Selleniun_start_projects.Selleniun_start_projects.AppTest)  Time elapsed: 14.568 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'DESKTOP-V67NS11', ip: '172.28.128.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20250113121357, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24652, moz:profile: C:\Users\TOGOMORI\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2f827367-8350-4637-9c9f-29154cca9ce7
+*** Element info: {Using=id, value=firstname}
+	at Selleniun_start_projects.Selleniun_start_projects.AppTest.Tests1(AppTest.java:39)
+
