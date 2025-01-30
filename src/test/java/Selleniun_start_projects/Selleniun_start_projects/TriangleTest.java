@@ -37,6 +37,7 @@ public class TriangleTest {
 		assertEquals(expectedResult, actualResult);
 		System.out.println("Triangle Type1: " + actualResult);
 	}
+
 	@Test
 	public void testTriangleType2() {
 		browser.findElement(By.id("side1")).sendKeys("1");
@@ -51,6 +52,7 @@ public class TriangleTest {
 		assertEquals(expectedResult, actualResult);
 		System.out.println("Triangle Type2: " + actualResult);
 	}
+
 	@Test
 	public void testTriangleType3() {
 		browser.findElement(By.id("side1")).sendKeys("4");
@@ -65,6 +67,7 @@ public class TriangleTest {
 		assertEquals(expectedResult, actualResult);
 		System.out.println("Triangle Type3: " + actualResult);
 	}
+
 	@Test
 	public void testTriangleType4() {
 		browser.findElement(By.id("side1")).sendKeys("5");
@@ -79,5 +82,5 @@ public class TriangleTest {
 		assertEquals(expectedResult, actualResult);
 		System.out.println("Triangle Type4: " + actualResult);
 	}
-	
+
 }
